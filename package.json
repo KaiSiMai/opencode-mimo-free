@@ -1,0 +1,20 @@
+{
+  "name": "opencode-mimo-free",
+  "version": "0.1.0",
+  "description": "Xiaomi MiMo free anonymous channel plugin for opencode",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "bun build src/index.ts --outfile dist/index.js --target bun",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.17.7",
+    "typescript": "^5.8.0",
+    "@types/node": "^24.0.0"
+  },
+  "engines": {
+    "opencode": ">=1.15.0"
+  },
+  "license": "MIT"
+}
